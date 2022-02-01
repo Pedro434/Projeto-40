@@ -1,0 +1,43 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.sound.min.js"></script>
+  <script src="libraries/matter.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+
+  <script src="js/form.js"></script>
+  <script src="js/player.js"></script>
+  <script src="js/game.js"></script>  
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+   https://firebase.google.com/docs/web/setup#available-libraries -->
+   <aside></aside>
+<script>
+const firebaseConfig = {
+    apiKey: "AIzaSyC1mvs9xWkYey6jna1a6gnPHfb4wrfZvXk",
+    authDomain: "projeto-40-d964c.firebaseapp.com",
+    databaseURL: "https://projeto-40-d964c-default-rtdb.firebaseio.com",
+    projectId: "projeto-40-d964c",
+    storageBucket: "projeto-40-d964c.appspot.com",
+    messagingSenderId: "844321448039",
+    appId: "1:844321448039:web:dd1f40db0d92dd810034c2"
+  };
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
+</script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+
+
+</body></html>
